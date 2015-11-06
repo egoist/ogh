@@ -1,0 +1,22 @@
+{
+  "name": "ogh",
+  "version": "0.1.0",
+  "description": "Open GitHub Page of your repo directly in Terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ogh": "./bin/ogh"
+  },
+  "preferGlobal": true,
+  "author": "EGOIST",
+  "license": "MIT",
+  "dependencies": {
+    "git-url-parse": "^4.0.0",
+    "ini": "^1.3.4",
+    "open": "0.0.5",
+    "path-exists": "^2.0.0",
+    "typelog": "^0.1.1"
+  }
+}
