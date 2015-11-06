@@ -1,6 +1,6 @@
 {
   "name": "ogh",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Open GitHub Page of your repo directly in Terminal.",
   "main": "index.js",
   "scripts": {

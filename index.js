@@ -16,8 +16,5 @@ module.exports = function () {
     return log.error('Remote origin does not exist')
   }
   var url = parse(remote.url)
-  if (url.source !== 'github.com') {
-    return log.warn('This is not a GitHub repository')
-  }
-  open('https://github.com/' + url.owner + '/' + url.name)
+  open('https://' + url.resource + '/' + url.owner + '/' + url.name)
 }
