@@ -1,6 +1,6 @@
 {
   "name": "ogh",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Open GitHub Page of your repo directly in Terminal.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
     "open": "0.0.5",
     "path-exists": "^2.0.0",
     "typelog": "^0.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:egoist/ogh.git"
   }
 }
