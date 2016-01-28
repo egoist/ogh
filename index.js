@@ -16,5 +16,5 @@ module.exports = function () {
     return log.error('Remote origin does not exist')
   }
   var url = parse(remote.url)
-  open('https://' + url.resource + '/' + url.owner + '/' + url.name)
+  open('http://' + url.resource + '/' + url.owner + '/' + url.name)
 }
